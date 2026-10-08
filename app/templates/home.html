@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block main %}
+<p> Welcome to our brewsite </p>
+<p> {{ user }}</p>
+<img src="{{ url_for('static', filename = 'images/coldbrew.jpg') }}" alt="cold glass of beer">
+
+{% endblock main %}
